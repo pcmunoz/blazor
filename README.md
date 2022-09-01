@@ -2,6 +2,7 @@
 
 Resources
 https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-cli-tutorial/intro
+
 https://docs.microsoft.com/en-us/learn/modules/build-blazor-webassembly-visual-studio-code/
 
 ## Pre-requisites:
