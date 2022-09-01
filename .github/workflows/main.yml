@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Deploy my blazor to GitHub Pages
+name: Deploy my blazorwasm to GitHub Pages
 
 # Controls when the workflow will run
 on:
