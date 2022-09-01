@@ -1,4 +1,4 @@
-/* _content/blazor/Shared/MainLayout.razor.rz.scp.css */
+/* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-4xkhgbbdbr] {
     position: relative;
     display: flex;
@@ -22,12 +22,17 @@ main[b-4xkhgbbdbr] {
     align-items: center;
 }
 
-    .top-row[b-4xkhgbbdbr]  a, .top-row .btn-link[b-4xkhgbbdbr] {
+    .top-row[b-4xkhgbbdbr]  a, .top-row[b-4xkhgbbdbr]  .btn-link {
         white-space: nowrap;
         margin-left: 1.5rem;
+        text-decoration: none;
     }
 
-    .top-row a:first-child[b-4xkhgbbdbr] {
+    .top-row[b-4xkhgbbdbr]  a:hover, .top-row[b-4xkhgbbdbr]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-4xkhgbbdbr]  a:first-child {
         overflow: hidden;
         text-overflow: ellipsis;
     }
@@ -41,7 +46,7 @@ main[b-4xkhgbbdbr] {
         justify-content: space-between;
     }
 
-    .top-row a[b-4xkhgbbdbr], .top-row .btn-link[b-4xkhgbbdbr] {
+    .top-row[b-4xkhgbbdbr]  a, .top-row[b-4xkhgbbdbr]  .btn-link {
         margin-left: 0;
     }
 }
@@ -64,12 +69,18 @@ main[b-4xkhgbbdbr] {
         z-index: 1;
     }
 
+    .top-row.auth[b-4xkhgbbdbr]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
     .top-row[b-4xkhgbbdbr], article[b-4xkhgbbdbr] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
 }
-/* _content/blazor/Shared/NavMenu.razor.rz.scp.css */
+/* /Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-z1634rhoxe] {
     background-color: rgba(255, 255, 255, 0.1);
 }
